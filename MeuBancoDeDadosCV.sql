@@ -1,0 +1,11 @@
+CREATE DATABASE MeuBancoDeDadosCV;
+USE MeuBancoDeDadosCV;
+CREATE TABLE Mensagens (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(255) NOT NULL,
+    Telefone VARCHAR(15),
+    Email VARCHAR(255) NOT NULL,
+    Mensagem TEXT NOT NULL
+);
+
+
